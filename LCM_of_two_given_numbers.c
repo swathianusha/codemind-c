@@ -1,17 +1,16 @@
 #include<stdio.h>
 int main()
 {
-    int i,M,N,m;
-    scanf("%d%d",&M,&N);
-    for(i=1;i<=M;i++)
+    int i,n,m,a;
+    scanf("%d%d",&n,&m);
+    for(i=1;i<=m;i++)
     {
-        m=N*i;
-        if(m%M==0)
+        a=n*i;
+        if(a%m==0)
         {
-            printf("%d ",m);
+            printf("%d",a);
             break;
         }
+        
     }
-    
-    
 }
