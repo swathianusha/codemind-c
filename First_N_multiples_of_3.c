@@ -6,7 +6,8 @@ int main()
     for(i=1;i<=N;i++)
     {
         n=3*i;
-        
         printf("%d ",n);
+        
     }
+    
 }
