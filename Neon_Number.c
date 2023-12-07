@@ -9,12 +9,14 @@ int main()
         r=s%10;
         rev=rev+r;
         s=s/10;
+        
     }
     if(rev==n)
     {
         printf("Neon Number");
     }
-    else{
+    else
+    {
         printf("Not Neon Number");
     }
 }
