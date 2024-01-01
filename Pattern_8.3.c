@@ -7,7 +7,7 @@ int main()
     {
         for(j=n;j>0;j--)
         {
-            if(i==j || j==(n-i+1))
+            if(i==j ||j==(n-i+1))
             {
                 printf("%d",i);
             }
